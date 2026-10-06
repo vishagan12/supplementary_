@@ -1,14 +1,14 @@
 # Supplementary tables
 
-Appendix **Tables 6–8** (dashcam causal segmentation). **Bold** rows highlight our proposed configuration or the best metric in each sweep block.
+Appendix **Tables 5, 7, and 8** (dashcam causal segmentation). **Bold** rows highlight our proposed configuration or the best metric in each sweep block.
 
 ---
 
-## Table 6
+## Table 5
 
 *Source: manuscript Table 4 — restoration pipeline (component-wise and hyperparameter sweeps).*
 
-| Restoration pipeline stage (Table 6) | Hyperparameters | mIoU (%) | mTC (%) |
+| Restoration pipeline stage (Table 5) | Hyperparameters | mIoU (%) | mTC (%) |
 |--------------------------------------|-----------------|----------|---------|
 | Raw input (no restoration) | — | **65.4** | 77.2 |
 | + Stage 1: flare suppression | τ_flare = 220 | 67.3 | 79.5 |
@@ -52,7 +52,7 @@ Appendix **Tables 6–8** (dashcam causal segmentation). **Bold** rows highlight
 
 | File | Description |
 |------|-------------|
-| [appendix_tables.pdf](appendix_tables.pdf) | Tables 6–8 in PDF layout |
+| [appendix_tables.pdf](appendix_tables.pdf) | Tables 5, 7, and 8 in PDF layout |
 | [appendix_tables.docx](appendix_tables.docx) | Editable Word — use **Download** on the file page (do not open `.docx` in the GitHub browser tab) |
 
 **Repository:** https://github.com/vishagan12/supplementary_
