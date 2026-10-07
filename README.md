@@ -1,8 +1,14 @@
 # Supplementary materials (ICVGIP Submission 497)
 
-## ICVGIP rebuttal — full text (readable on GitHub)
+## ICVGIP rebuttal — by reviewer (readable on GitHub)
 
-**[rebuttal-final.md](rebuttal-final.md)** — complete Action Taken Report (all reviewer Q&A and tables), converted from `rebuttal-final.docx` for in-browser viewing.
+| Reviewer | File | Questions |
+|----------|------|-----------|
+| **Reviewer 1** | [rebuttal-reviewer-1.md](rebuttal-reviewer-1.md) | 1 |
+| **Reviewer 2** | [rebuttal-reviewer-2.md](rebuttal-reviewer-2.md) | 12 |
+| **Reviewer 3** | [rebuttal-reviewer-3.md](rebuttal-reviewer-3.md) | 5 |
+
+Each file includes the submission header (Action Taken Report, paper title) and that reviewer’s questions, answers, and tables.
 
 ---
 
@@ -44,8 +50,9 @@ Appendix **Tables 6 and 7** for dashcam causal video segmentation. **Bold** rows
 
 | File | Description |
 |------|-------------|
-| [rebuttal-final.md](rebuttal-final.md) | Full rebuttal (Markdown — read on GitHub) |
-| [rebuttal-final.docx](rebuttal-final.docx) | Same rebuttal in Word — use **Download** |
+| [rebuttal-reviewer-1.md](rebuttal-reviewer-1.md) | Reviewer 1 rebuttal |
+| [rebuttal-reviewer-2.md](rebuttal-reviewer-2.md) | Reviewer 2 rebuttal |
+| [rebuttal-reviewer-3.md](rebuttal-reviewer-3.md) | Reviewer 3 rebuttal |
 | [appendix_tables.pdf](appendix_tables.pdf) | Tables 6 and 7 in PDF layout |
 | [appendix_tables.docx](appendix_tables.docx) | Tables 6 and 7 in Word — use **Download** (do not open `.docx` in the GitHub browser tab) |
 
