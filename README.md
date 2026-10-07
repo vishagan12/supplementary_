@@ -50,11 +50,18 @@ Each file includes the submission header and that reviewer’s questions, answer
 
 ---
 
-## Other files
+## Other files (download)
 
-| File | Use |
-|------|-----|
-| [appendix_tables.pdf](appendix_tables.pdf) | Tables 6–7 — preview in browser |
-| [appendix_tables.docx](appendix_tables.docx) | Tables 6–7 — Word; use **Download** (do not open `.docx` in the GitHub tab) |
+Open any file and use **Download** (top right), or use the direct links below.
+
+| File | Description | Direct download |
+|------|-------------|-----------------|
+| [rebuttal-reviewer-1.md](rebuttal-reviewer-1.md) | Reviewer 1 rebuttal (Markdown) | [raw](https://github.com/vishagan12/supplementary_/raw/main/rebuttal-reviewer-1.md) |
+| [rebuttal-reviewer-2.md](rebuttal-reviewer-2.md) | Reviewer 2 rebuttal (Markdown) | [raw](https://github.com/vishagan12/supplementary_/raw/main/rebuttal-reviewer-2.md) |
+| [rebuttal-reviewer-3.md](rebuttal-reviewer-3.md) | Reviewer 3 rebuttal (Markdown) | [raw](https://github.com/vishagan12/supplementary_/raw/main/rebuttal-reviewer-3.md) |
+| [appendix_tables.pdf](appendix_tables.pdf) | Appendix Tables 6–7 (PDF) | [raw](https://github.com/vishagan12/supplementary_/raw/main/appendix_tables.pdf) |
+| [appendix_tables.docx](appendix_tables.docx) | Appendix Tables 6–7 (Word) | [raw](https://github.com/vishagan12/supplementary_/raw/main/appendix_tables.docx) |
+
+> For `.docx`, use **Download** or the raw link — do not open in the GitHub browser tab (shows XML).
 
 **Repo:** https://github.com/vishagan12/supplementary_
