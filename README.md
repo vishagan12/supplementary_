@@ -63,5 +63,3 @@ Open any file and use **Download** (top right), or use the direct links below.
 | [appendix_tables.docx](appendix_tables.docx) | Appendix Tables 6–7 (Word) | [raw](https://github.com/vishagan12/supplementary_/raw/main/appendix_tables.docx) |
 
 > For `.docx`, use **Download** or the raw link — do not open in the GitHub browser tab (shows XML).
-
-**Repo:** https://github.com/vishagan12/supplementary_
