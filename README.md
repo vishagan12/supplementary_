@@ -1,10 +1,16 @@
-# Supplementary tables
+# Supplementary materials (ICVGIP Submission 497)
 
-Appendix **Tables 6 and 7** for dashcam causal video segmentation. **Bold** rows highlight our proposed configuration or the best metric in each sweep block.
+## ICVGIP rebuttal — full text (readable on GitHub)
+
+**[rebuttal-final.md](rebuttal-final.md)** — complete Action Taken Report (all reviewer Q&A and tables), converted from `rebuttal-final.docx` for in-browser viewing.
 
 ---
 
-## Table 6 — Tri-stage restoration ablation and hyperparameter sensitivity
+## Supplementary tables
+
+Appendix **Tables 6 and 7** for dashcam causal video segmentation. **Bold** rows highlight our proposed configuration or the best metric in each sweep block.
+
+### Table 6 — Tri-stage restoration ablation and hyperparameter sensitivity
 
 *Component-wise ablation and one-at-a-time hyperparameter sweeps for the photometric restoration pipeline, evaluated with SAM 3 + causal segmentation fixed (manuscript Table 4).*
 
@@ -22,9 +28,7 @@ Appendix **Tables 6 and 7** for dashcam causal video segmentation. **Bold** rows
 | + Stage 3: CLAHE & gamma | γ = 2.2 | 71.6 | 86.2 |
 | Tri-stage photometric pipeline | — | **74.8** | **88.4** |
 
----
-
-## Table 7 — Comparative benchmark (excerpt)
+### Table 7 — Comparative benchmark (excerpt)
 
 *State-of-the-art comparison on identical curated multi-scenario dashcam video sequences (manuscript Table 2).*
 
@@ -40,7 +44,9 @@ Appendix **Tables 6 and 7** for dashcam causal video segmentation. **Bold** rows
 
 | File | Description |
 |------|-------------|
+| [rebuttal-final.md](rebuttal-final.md) | Full rebuttal (Markdown — read on GitHub) |
+| [rebuttal-final.docx](rebuttal-final.docx) | Same rebuttal in Word — use **Download** |
 | [appendix_tables.pdf](appendix_tables.pdf) | Tables 6 and 7 in PDF layout |
-| [appendix_tables.docx](appendix_tables.docx) | Editable Word — use **Download** on the file page (do not open `.docx` in the GitHub browser tab) |
+| [appendix_tables.docx](appendix_tables.docx) | Tables 6 and 7 in Word — use **Download** (do not open `.docx` in the GitHub browser tab) |
 
 **Repository:** https://github.com/vishagan12/supplementary_
