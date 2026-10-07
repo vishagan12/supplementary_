@@ -1,27 +1,29 @@
-# Supplementary materials (ICVGIP Submission 497)
+# Supplementary materials — ICVGIP 2026, Submission 497
 
-## ICVGIP rebuttal — by reviewer (readable on GitHub)
+**Causal Video Segmentation of Moving Objects in Dashcam Scenes Under Challenging Visual Conditions**
 
-| Reviewer | File | Questions |
-|----------|------|-----------|
-| **Reviewer 1** | [rebuttal-reviewer-1.md](rebuttal-reviewer-1.md) | 1 |
-| **Reviewer 2** | [rebuttal-reviewer-2.md](rebuttal-reviewer-2.md) | 12 |
-| **Reviewer 3** | [rebuttal-reviewer-3.md](rebuttal-reviewer-3.md) | 5 |
-
-Each file includes the submission header (Action Taken Report, paper title) and that reviewer’s questions, answers, and tables.
+This repository holds the **OpenReview rebuttal** (by reviewer) and **appendix Tables 6–7** for the manuscript. All rebuttal text is in Markdown so it renders directly on GitHub.
 
 ---
 
-## Supplementary tables
+## Rebuttal (Action Taken Report)
 
-Appendix **Tables 6 and 7** for dashcam causal video segmentation. **Bold** rows highlight our proposed configuration or the best metric in each sweep block.
+| Reviewer | Markdown file | # questions |
+|----------|---------------|-------------|
+| Reviewer 1 | [rebuttal-reviewer-1.md](rebuttal-reviewer-1.md) | 1 |
+| Reviewer 2 | [rebuttal-reviewer-2.md](rebuttal-reviewer-2.md) | 12 |
+| Reviewer 3 | [rebuttal-reviewer-3.md](rebuttal-reviewer-3.md) | 5 |
 
-### Table 6 — Tri-stage restoration ablation and hyperparameter sensitivity
+Each file includes the submission header and that reviewer’s questions, answers, and any tables cited in those answers.
 
-*Component-wise ablation and one-at-a-time hyperparameter sweeps for the photometric restoration pipeline, evaluated with SAM 3 + causal segmentation fixed (manuscript Table 4).*
+---
 
-| Restoration pipeline stage (Table 6) | Hyperparameters | mIoU (%) | mTC (%) |
-|--------------------------------------|-----------------|----------|---------|
+## Appendix Table 6 — Tri-stage restoration ablation and hyperparameter sensitivity
+
+*Manuscript Table 4. SAM 3 + causal segmentation held fixed. **Bold** = manuscript defaults / best in each sweep block.*
+
+| Restoration pipeline stage | Hyperparameters | mIoU (%) | mTC (%) |
+|----------------------------|-----------------|----------|---------|
 | Raw input (no restoration) | — | **65.4** | 77.2 |
 | + Stage 1: flare suppression | τ_flare = 220 | 67.3 | 79.5 |
 | + Stage 1: flare suppression | τ_flare = 240 | **68.6** | **81.0** |
@@ -34,26 +36,25 @@ Appendix **Tables 6 and 7** for dashcam causal video segmentation. **Bold** rows
 | + Stage 3: CLAHE & gamma | γ = 2.2 | 71.6 | 86.2 |
 | Tri-stage photometric pipeline | — | **74.8** | **88.4** |
 
-### Table 7 — Comparative benchmark (excerpt)
+---
 
-*State-of-the-art comparison on identical curated multi-scenario dashcam video sequences (manuscript Table 2).*
+## Appendix Table 7 — Comparative benchmark (excerpt)
 
-| Method (Table 7) | mIoU (%) | mTC (%) | FPS |
-|------------------|----------|---------|-----|
+*Manuscript Table 2. Identical curated multi-scenario dashcam video sequences.*
+
+| Method | mIoU (%) | mTC (%) | FPS |
+|--------|----------|---------|-----|
 | SAM (per-frame zero-shot) | 62.5 | 64.1 | 12.3 |
 | SAM 2 (streaming video) | 71.6 | 85.1 | 22.4 |
 | **Restoration + SAM 3 (causal PCS) — ours** | **74.8** | **88.4** | **28.6** |
 
 ---
 
-## Downloadable copies
+## Other files
 
-| File | Description |
-|------|-------------|
-| [rebuttal-reviewer-1.md](rebuttal-reviewer-1.md) | Reviewer 1 rebuttal |
-| [rebuttal-reviewer-2.md](rebuttal-reviewer-2.md) | Reviewer 2 rebuttal |
-| [rebuttal-reviewer-3.md](rebuttal-reviewer-3.md) | Reviewer 3 rebuttal |
-| [appendix_tables.pdf](appendix_tables.pdf) | Tables 6 and 7 in PDF layout |
-| [appendix_tables.docx](appendix_tables.docx) | Tables 6 and 7 in Word — use **Download** (do not open `.docx` in the GitHub browser tab) |
+| File | Use |
+|------|-----|
+| [appendix_tables.pdf](appendix_tables.pdf) | Tables 6–7 — preview in browser |
+| [appendix_tables.docx](appendix_tables.docx) | Tables 6–7 — Word; use **Download** (do not open `.docx` in the GitHub tab) |
 
-**Repository:** https://github.com/vishagan12/supplementary_
+**Repo:** https://github.com/vishagan12/supplementary_
